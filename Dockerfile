@@ -13,4 +13,4 @@ ENV ASPNETCORE_URLS=http://+:${PORT}
 
 EXPOSE 80
 
-ENTRYPOINT ["dotnet", "ReiNona1.dll"]
+ENTRYPOINT ["dotnet", "ReiNona.dll"]
