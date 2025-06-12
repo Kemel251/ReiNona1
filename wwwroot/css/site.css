@@ -442,6 +442,17 @@ hr {
     }
 }
 
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    justify-items: center;
+    align-items: center;
+}
 
-
-
+    .software-grid img {
+        max-width: 100px;
+        max-height: 100px;
+        object-fit: contain;
+    }
